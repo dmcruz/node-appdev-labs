@@ -12,7 +12,6 @@ async function read (file) {
   }
 }
 
-
 async function check () {
   await assert.rejects(
     read('not-a-valid-filepath'), 
